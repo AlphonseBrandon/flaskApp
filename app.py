@@ -15,3 +15,5 @@ Label(root, text="YouTube Downloader By Alphonse Brandon").pack()
 # Field to enter link
 link = StringVar()
 
+Label(root, text = "Paste the Link Here: ", font = "Helvetica 12 bold").place(x = 50, y = 50)
+

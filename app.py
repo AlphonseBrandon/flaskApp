@@ -17,3 +17,16 @@ link = StringVar()
 
 Label(root, text = "Paste the Link Here: ", font = "Helvetica 12 bold").place(x = 50, y = 50)
 
+link_enter = Entry(root, textvariable = link, width = 50).place(x = 50, y = 100)
+
+
+# Button to download
+
+def Downloader():
+    url = YouTube(str(link.get()))
+    video = url.streams.first()
+    video.download()
+    Label(root, text = "Video Downloaded", font = "Helvetica 12 bold").place(x = 50, y = 150)
+
+
+    

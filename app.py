@@ -32,3 +32,8 @@ def Downloader():
 # Button to download
 
 Button(root, text = "DOWNLOAD", font = 'arial 15 bold', bg = 'pale violet red', padx = 2, width = 10, height = 2, command = Downloader).place(x = 50, y = 200)
+
+
+# Run the main loop
+
+root.mainloop()

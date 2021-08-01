@@ -10,3 +10,8 @@ root.title("YouTube Downloader")
 
 
 Label(root, text="YouTube Downloader By Alphonse Brandon").pack()
+
+
+# Field to enter link
+link = StringVar()
+

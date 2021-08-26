@@ -2,7 +2,7 @@ from tkinter import *
 from pytube import YouTube
 
 
-# Create display window
+# Creating
 root = Tk()
 root.geometry("500x500")
 root.resizable(0,0)

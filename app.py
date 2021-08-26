@@ -1,4 +1,4 @@
-# Author: 
+# Title: Youtube Downloader
 
 from tkinter import * 
 from pytube import YouTube
